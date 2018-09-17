@@ -36,4 +36,55 @@ myClass.myArrays(myName, myAge, myCourses, myGrades0,);
  
 //string = double quotes char= single quote 
 
+
+
+
+
+
+
+
+
+Class Exec: Empl
+  { int Bonus 
+     calcBonuses ()
+    } 
+    
+Pres: VP 
+  { open new location() 
+   } bonus 
+VP: manager 
+
+ { givepromotions() 
+ } Bonus 
+Class Employee
+
+ { int ssn;
+  string fullname; 
+  int monthlypay; 
+  
+  Pres: VP
+  { open new location() 
+  
+  } 
+  VP : Director 
+   { givepromotions()
+   
+   } 
+   
+   Director: Manager 
+   
+   public override { hire/fire }
+          makeschedulue 
+          }
+          
+   Manager: Employee
+   
+   public virtual makeschedule  
+   }
+
+
+
+
+ 
+
 //specify type in the brackets that means its an array 
